@@ -1,0 +1,80 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right, #333399, #ff00cc); /*faz um lindo degrade*/
+    display: flex;
+    align-items: center; /*tira do topo da tela e coloca no centro*/
+    justify-content: center; /*tira das laterais e coloca no centro da tela*/
+}
+
+.login-card{
+    width: 450px;
+    background: rgba(255, 255, 255, 0.5); /*background do card*/
+    padding: 4rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.login-card::-ms-ticks-before{
+    content: '';
+    position: absolute;
+    background: rgba(255, 255,255,0.15);
+    inset: 0;
+    transform: rotate(-5deg);
+    z-index: -1;
+}
+
+.login-card-logo{
+    margin-bottom: 2rem;
+}
+
+.login-card-logo img{
+    width: 60px;
+}
+
+.login-card-logo,
+.login-card-header,
+.login-card-footer {
+    text-align: center;
+}
+
+.login-card a{
+    text-decoration: none;
+    color: #35339a;
+}
+
+.login-card a:hover{
+    text-decoration: underline;
+}
+
+.login-card-header{
+    margin-bottom: 2rem;
+}
+
+.login-card-header h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+
+
+/* continua : https://youtu.be/B6e4Fg_-CXY?t=762 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
